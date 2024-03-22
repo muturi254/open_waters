@@ -1,0 +1,12 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+nav span {
+    color: #4caf50;
+  }
+  
+  nav p {
+    font-size: 25px;
+    font-weight: 600;
+    cursor: default;
+  }
