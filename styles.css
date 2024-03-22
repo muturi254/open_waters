@@ -1,12 +1,87 @@
-/* GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+body,
+html {
+  font-family: "Montserrat", serif;
+  margin: 0;
+}
+
+
+button,
+.btn {
+  font-family: inherit;
+}
+
+.boy {
+    text-align: center;
+}
+.boy .p {
+    padding: 0.75rem 5vw;
+    align-items: center;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 0.75rem 5vw;
+  box-shadow: 0 0 30px lightgray;
+}
 
 nav span {
-    color: #4caf50;
-  }
-  
-  nav p {
-    font-size: 25px;
-    font-weight: 600;
-    cursor: default;
-  }
+  color: #4caf50;
+}
+
+nav p {
+  font-size: 25px;
+  font-weight: 600;
+  cursor: default;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none; /* text deco will remove the underlining */
+  color: #676767;
+  padding: 0 1rem; /* to create space around an element's content 0 for top and bottom 1 for right and left */
+  font-size: 20px;
+}
+
+
+nav .btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0 0 0.5rem; /* represent the margin for the top, right, bottom, and left sides of the element, */
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-size: 17px;
+}
+
+.register {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+}
+
+.register:hover {
+  background-color: #3c8c40;
+}
+
+.login {
+  background-color: white;
+  color: #4caf50;
+}
+
+.login:hover {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+}
